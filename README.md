@@ -71,6 +71,19 @@ To follow this tutorial, you just need:
 * Prepare Terminal/Command Prompt
 
 ### Step 1: Open Wit.ai through Browser
+* Open [Wit.ai](https://wit.ai). 
+* Click Continue with Facebook
+* Click New App
+* Name your App (appDemo) then Create
+
+<p align="center">
+<img src="https://aleimar.github.io/witAI101/images/part1.gif" width="600" height="400"> 
+ </p>
+ 
+ Now, you are in the understanding tab of Wit.ai. 
+
+### Step 2: Adding sample Utterances
+
 
 # Links and useful references to learn more about key concepts:
 * [Chatbot Vocabulary: 10 Chatbot Terms You Need to Know](https://chatbotsmagazine.com/chatbot-vocabulary-10-chatbot-terms-you-need-to-know-3911b1ef31b4)
