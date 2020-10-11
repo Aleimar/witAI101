@@ -17,7 +17,9 @@ Intent | Utterance
 Check_Weather | How's the weather today?
  | What's the weather forecast tomorrow?
  | How's the weather like in New York?
+ ------------ | -------------
 Greetings | Good morning
  | Hello
+ ------------ | -------------
 
 ## Entities
