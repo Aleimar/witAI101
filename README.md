@@ -119,6 +119,7 @@ We will now add sample to train our app.
  ### Step 4: Adding Intents
  * To add intent, after typing the utterance, click *Choose or Add Intent*
  * Create new intent (Travel_Book) then click *Create Intent*
+ * Click **Train and Validate** to train the app with the sample utterance
  
  <p align="center">
 <img src="https://aleimar.github.io/witAI101/images/addingIntent.gif" > 
@@ -178,9 +179,9 @@ We will now add sample to train our app.
  ```
  
 The response essentially contains:
-* text - the user utterance
-* intents - which contains **name** or the intent detected, and **confidence** which the probability that the intent classification is confidently correct.
-* entities - which contains the entities extracted in the utterance (in this case, no entity is detected)
+* **text** - the user utterance
+* **intents** - which contains **name** or the intent detected, and **confidence** which the probability that the intent classification is confidently correct.
+* **entities** - which contains the entities extracted in the utterance (in this case, no entity is detected)
 
 By this example, we can conclude that our app is 70% confident that *'good night'* is a *Greeting* intent, then we craft possible response for greetings like this to the users.
 
@@ -271,11 +272,11 @@ We can see that:
 
 * **text** - Fly me to New York on the 30th
 * **intents** 
- * **name** - Travel_Book
- * **confidence** - 0.547
+  * **name** - Travel_Book
+  * **confidence** - 0.547
 * **entities** 
- * *datetime*  - body: on the 30th
- * *location* - body: South Korea
+  * **datetime**  - body: on the 30th
+  * **location** - body: South Korea
  
 From this example, we see that its only 54% confident that the utterance *'Fly me to South Korea on the 30th'* has a **Travel_Book** intention. This is understandable, since we have limited utterance sample for our app. We have to train it with more sample data for better performance.
 
