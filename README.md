@@ -62,7 +62,7 @@ Clearly, the intent would be flight booking, or as we labelled *Travel_Booking*,
 ### Composite Entities
 Composite Entities are entities within entities.
 ```I saw 2 black Mercedes. ```
-The *2 black Mercedes* is an entity but can also be divided to three entities: {number: 2}, {color: black}, {car: Mercedes}. Composite entities are optional and depends how you train your bot to treat this utterance.
+The *2 black Mercedes* is an entity but can also be divided to three entities: ```{number: 2}, {color: black}, {car: Mercedes}```. Composite entities are optional and depends how you train your bot to treat this utterance.
 
 # Application through Wit.ai
 ## Prerequisites
