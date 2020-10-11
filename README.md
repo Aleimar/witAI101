@@ -94,8 +94,11 @@ We will now add sample to train our app.
 
 
 ### Step 3: Adding Entities
-* Highlight entities: *this Friday* and *Philippines* then search for built in entity of wit.ai.
+* Highlight entities: *this Friday* and *Philippines* then search for built in entity of wit.ai
 > See this [link  for list of wit.ai built in entities](https://wit.ai/docs/built-in-entities/20200513/) 
+
+``` Example: After highlighting Philippines search the world 'location' in entity, then click once found to assign location entity for Philippines```
+
 
 <p align="center">
 <img src="https://aleimar.github.io/witAI101/images/addentity.png" width="600" height="400"> 
@@ -114,6 +117,8 @@ We will now add sample to train our app.
  </p>
  
  ### Step 4: Adding Intents
+ * To add intent, after typing the utterance, click *Choose or Add Intent*
+ * Create new intent (Travel_Book) then click *Create Intent*
  
  <p align="center">
 <img src="https://aleimar.github.io/witAI101/images/addingIntent.gif" width="600" height="400"> 
