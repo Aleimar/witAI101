@@ -45,7 +45,7 @@ An **intent is the intention of the whole utterance** while **entities are piece
 > 🖥️ In programming perspective, intent would be a trigger to perform an operation/method while entities would be the parameters passed for this method/operation call.
 
 Utterance | Intent | Entities
------------- | ------------ | -------------
+------------ | ------------ | ------------
 How's the weather today? <br> What's the weather forecast tomorrow? <br> How's the weather like in New York? | Check_Weather | {date: today} <br> {date: tomorrow} <br> {location: New York}
 Book me a flight to the Philippines this Friday. <br> I'd like to travel in Singapore this December 25. <br> I need a plane ticket for my trip next week to Bangkok, Thailand. | Travel_Booking | {location: Philippines, time: Friday} <br> {location: Singapore, date: December 25} <br> {date: next week, location: Bangkok, Thailand}  
 <br>
