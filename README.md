@@ -11,8 +11,10 @@ In this tutorial, we will discuss the essential concepts in NLP, applying these 
 <p align="center">
 <img src="https://aleimar.github.io/witAI101/images/intro_image.png" width="600" height="400"> 
  </p>
+ 
+ The three important concepts in NLP for bots are [**Utterance**](#Utterance), [**Intents**](#Intents), and [**Entities**](#Entities)
 
-## Utterance
+## Utterance<a name="Utterance"></a>
 Utterance is input from the user that we need to interpret to deliver the correct response.
 Basically, anything the user says: 
 
@@ -22,7 +24,7 @@ Basically, anything the user says:
 
 Whether a question, an expression or a command, **the whole statement is called an *utterance***. 
 
-## Intents
+## Intents<a name="Intents"></a>
 An intent represents a task or action the user wants to perform. It is a purpose or goal expressed in a user's utterance. 
 
 Intent | Utterance
@@ -33,4 +35,4 @@ Check_Weather | How's the weather today? <br> What's the weather forecast tomorr
  
 The table above shows user's intentions based on sample utterances like asking *"How's the weather today?"* means that the user want's to check the weather and we label this intent into *Check_Weather*
 
-## Entities
+## Entities<a name="Entities"></a>
