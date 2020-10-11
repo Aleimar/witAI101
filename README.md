@@ -4,4 +4,20 @@ Wit.ai 101: Basics of Natural Language Processing through [Wit.ai](https://wit.a
 > This tutorial is learning basic concepts of Natural Language Processing and its implementation through Wit.ai.
 
 # Introduction
-**Natural Language Processing (NLP)** is the science of extracting the intention of text and relevant information from text.
+**Natural Language Processing (NLP)** is the science of extracting the intention of text and relevant information from text.One of the common applications of NLP is Conversational AI or Chatbots.
+
+## Utterance
+Basically, anything the user says. *"What day is it?"* *"Thank you!"* *"I'd like to order sandwich."* Whether a question, an expression or a command, **the whole statement is called an *utterance***. 
+
+## Intents
+An intent represents a task or action the user wants to perform. It is a purpose or goal expressed in a user's utterance. 
+
+Intent | Utterance
+------------ | -------------
+Check_Weather | How's the weather today?
+ | What's the weather forecast tomorrow?
+ | How's the weather like in New York?
+Greetings | Good morning
+ | Hello
+
+## Entities
