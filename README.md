@@ -40,7 +40,7 @@ The table above shows user's intentions based on sample utterances like asking *
 ## Entities<a name="Entities"></a>
 An **entity represents a unit of data** you want extracted from the utterance, such as names, dates, product names, or any significant group of words. An utterance can include many entities or none at all.
 
-### Intent vs. Entities
+### Intent vs. Entities<a name="vsTable"></a>
 An **intent is the intention of the whole utterance** while **entities are pieces of data extracted from the utterance**. Intents are tied to actions and entities are information needed to perform this action. 
 > 🖥️ In programming perspective, intent would be a trigger to perform an operation/method while entities would be the parameters passed for this method/operation call.
 
@@ -77,7 +77,7 @@ To follow this tutorial, you just need:
 * Name your App (demoApp) then **Create**
 
 <p align="center">
-<img src="https://aleimar.github.io/witAI101/images/part1.gif" width="600" height="400"> 
+<img src="https://aleimar.github.io/witAI101/images/part1.gif"> 
  </p>
  
  Now, you are in the understanding tab of Wit.ai. 
@@ -86,7 +86,7 @@ To follow this tutorial, you just need:
 We will now add sample to train our app.
 
 <p align="center">
-<img src="https://aleimar.github.io/witAI101/images/understanding.png" width="600" height="400"> 
+<img src="https://aleimar.github.io/witAI101/images/understanding.png"> 
  </p>
 
 * In the utterance bar, type the sample utterances for our app.  
@@ -113,7 +113,7 @@ We will now add sample to train our app.
 ``` Wrap up of step 2 and 3: ```
 
 <p align="center">
-<img src="https://aleimar.github.io/witAI101/images/addingData.gif" width="600" height="400"> 
+<img src="https://aleimar.github.io/witAI101/images/addingData.gif" > 
  </p>
  
  ### Step 4: Adding Intents
@@ -121,8 +121,166 @@ We will now add sample to train our app.
  * Create new intent (Travel_Book) then click *Create Intent*
  
  <p align="center">
-<img src="https://aleimar.github.io/witAI101/images/addingIntent.gif" width="600" height="400"> 
+<img src="https://aleimar.github.io/witAI101/images/addingIntent.gif" > 
  </p>
+ 
+> I repeated steps 2 - 4 to create my demoApp using the [sample table of Intents vs. Entities](#vsTable)
+
+
+### Step 5: Testing the App
+* Under **Management** tab and click **Settings**
+* Under **HTTP API** enter a test utterance; *'good night'*
+
+ <p align="center">
+<img src="https://aleimar.github.io/witAI101/images/test.png"> 
+ </p>
+ 
+ * Copy the curl request generated. The paste it in your terminal
+ <p align="center">
+<img src="https://aleimar.github.io/witAI101/images/request.png"> 
+ </p>
+ 
+ 
+ * Hit enter and a response will be given briefly
+ <p align="center">
+<img src="https://aleimar.github.io/witAI101/images/response.png"> 
+ </p>
+ 
+
+ <p align="center">
+<img src="https://aleimar.github.io/witAI101/images/part3a.gif" > 
+ </p>
+
+* The response is in JSON format. To make it more understandable, highlight the response, copy then go to (JSON Pretty Print Online)[https://jsonformatter.org/json-pretty-print] paste on the left editor the click **Make Pretty** then see the result in the right side:
+
+ 
+ <p align="center">
+<img src="https://aleimar.github.io/witAI101/images/part3b.gif" > 
+ </p>
+ 
+ ### Step 6. Inspecting response
+ 
+> The sample response from *'good night'* test utterance
+ 
+ ```javascript
+ {
+  "text": "good night",
+  "intents": [
+    {
+      "id": "2396879380619776",
+      "name": "Greeting",
+      "confidence": 0.701
+    }
+  ],
+  "entities": {},
+  "traits": {}
+}
+ ```
+ 
+The response essentially contains:
+* text - the user utterance
+* intents - which contains **name** or the intent detected, and **confidence** which the probability that the intent classification is confidently correct.
+* entities - which contains the entities extracted in the utterance (in this case, no entity is detected)
+
+By this example, we can conclude that our app is 70% confident that *'good night'* is a *Greeting* intent, then we craft possible response for greetings like this to the users.
+
+``` Doing the same step in 5 and 6, I tried 'Fly me to South Korea on the 30th' ```
+
+We will have a response that looks like this:
+```javascript
+{
+  "text": "Fly me to South Korea on the 30th",
+  "intents": [
+    {
+      "id": "2617649178488304",
+      "name": "Travel_Book",
+      "confidence": 0.547
+    }
+  ],
+  "entities": {
+    "wit$datetime:datetime": [
+      {
+        "id": "2709435475941805",
+        "name": "wit$datetime",
+        "role": "datetime",
+        "start": 22,
+        "end": 33,
+        "body": "on the 30th",
+        "confidence": 0.9622,
+        "entities": [],
+        "type": "value",
+        "grain": "day",
+        "value": "2020-10-30T00:00:00.000-07:00",
+        "values": [
+          {
+            "type": "value",
+            "grain": "day",
+            "value": "2020-10-30T00:00:00.000-07:00"
+          },
+          {
+            "type": "value",
+            "grain": "day",
+            "value": "2020-11-30T00:00:00.000-08:00"
+          },
+          {
+            "type": "value",
+            "grain": "day",
+            "value": "2020-12-30T00:00:00.000-08:00"
+          }
+        ]
+      }
+    ],
+    "wit$location:location": [
+      {
+        "id": "3389580727801815",
+        "name": "wit$location",
+        "role": "location",
+        "start": 10,
+        "end": 21,
+        "body": "South Korea",
+        "confidence": 0.8921,
+        "entities": [],
+        "resolved": {
+          "values": [
+            {
+              "name": "South Korea",
+              "domain": "country",
+              "coords": {
+                "lat": 36.5,
+                "long": 127.75
+              },
+              "timezone": "Asia/Seoul",
+              "external": {
+                "geonames": "1835841",
+                "wikidata": "Q884",
+                "wikipedia": "South Korea"
+              },
+              "attributes": {}
+            }
+          ]
+        },
+        "type": "resolved"
+      }
+    ]
+  },
+  "traits": {}
+}
+```
+
+We can see that:
+
+* **text** - Fly me to New York on the 30th
+* **intents** 
+ * **name** - Travel_Book
+ * **confidence** - 0.547
+* **entities** 
+ * *datetime*  - body: on the 30th
+ * *location* - body: South Korea
+ 
+From this example, we see that its only 54% confident that the utterance *'Fly me to South Korea on the 30th'* has a **Travel_Book** intention. This is understandable, since we have limited utterance sample for our app. We have to train it with more sample data for better performance.
+
+> ❗ **NOTE** <br> In our lates example, we see that entities also contains other data like role, coordinates, timezone etc. <br> It all depends on how you will use all other data from the response body, in our demo, we are only interested on what entities are being captured, and the intent that is classified by the test utterance.
+
 
 # Links and useful references to learn more about key concepts:
 * [Chatbot Vocabulary: 10 Chatbot Terms You Need to Know](https://chatbotsmagazine.com/chatbot-vocabulary-10-chatbot-terms-you-need-to-know-3911b1ef31b4)
