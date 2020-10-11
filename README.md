@@ -15,7 +15,7 @@ An intent represents a task or action the user wants to perform. It is a purpose
 Intent | Utterance
 ------------ | -------------
 Check_Weather | How's the weather today? <br> What's the weather forecast tomorrow? <br> How's the weather like in New York?
- Greetings | Good morning <br> Hello
- 
+ Greetings | Good morning! <br> Hello!
+ Travel_Booking | Book me a flight to the Philippines next week Friday. <br> I'd like to travel in Singapore this December 25. <br> I need a plane ticket for my trip next week to Bangkok, Thailand.
 
 ## Entities
