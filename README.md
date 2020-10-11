@@ -73,7 +73,7 @@ To follow this tutorial, you just need:
 ### Step 1: Open Wit.ai through Browser
 
 # Links and useful references to learn more about key concepts:
-* [Chatbot Vocabulary: 10 Chatbot Terms You Need to Know] (https://chatbotsmagazine.com/chatbot-vocabulary-10-chatbot-terms-you-need-to-know-3911b1ef31b4)
-* [What Is Conversational AI?] (https://www.iotforall.com/what-is-conversational-ai)
-* [Chat Bots — Designing Intents and Entities for your NLP Models] (https://medium.com/@brijrajsingh/chat-bots-designing-intents-and-entities-for-your-nlp-models-35c385b7730d)
-* [Built-In Entities and Traits of Wit.ai] (https://wit.ai/docs/built-in-entities/20200513/)
+* [Chatbot Vocabulary: 10 Chatbot Terms You Need to Know](https://chatbotsmagazine.com/chatbot-vocabulary-10-chatbot-terms-you-need-to-know-3911b1ef31b4)
+* [What Is Conversational AI?](https://www.iotforall.com/what-is-conversational-ai)
+* [Chat Bots — Designing Intents and Entities for your NLP Models](https://medium.com/@brijrajsingh/chat-bots-designing-intents-and-entities-for-your-nlp-models-35c385b7730d)
+* [Built-In Entities and Traits of Wit.ai](https://wit.ai/docs/built-in-entities/20200513/)
