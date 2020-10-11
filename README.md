@@ -279,7 +279,19 @@ We can see that:
  
 From this example, we see that its only 54% confident that the utterance *'Fly me to South Korea on the 30th'* has a **Travel_Book** intention. This is understandable, since we have limited utterance sample for our app. We have to train it with more sample data for better performance.
 
-> ❗ **NOTE** <br> In our lates example, we see that entities also contains other data like role, coordinates, timezone etc. <br> It all depends on how you will use all other data from the response body, in our demo, we are only interested on what entities are being captured, and the intent that is classified by the test utterance.
+> ❗ **NOTE** <br> In our latest example, we see that entities also contains other data like role, coordinates, timezone etc. <br> It all depends on how you will use all other data from the response body, in our demo, we are only interested on what entities are being captured, and the intent that is classified by the test utterance.
+
+# What’s next?
+Now that we have an intelligent NLP system, thanks to Wit.ai! We can now connect our chatbots or web apps to process queries by different users and craft appropriate responses to them based on what intent and entities are being extracted/classified by our system.
+
+### When does training for intents and entities stop?
+You can never train it enough. Languages and its usage changes from time to time, it would be better to check accuracy of you NLP system and train with new utterances you captured from users to improve it! 
+
+This is why natural language processing is exciting! You get to be updated with current cool languages of people and make your bot keep up with the current trend 😎
+
+> In the future, I'll create tutorial in setting up basic chatbot for beginners, and possibly connect it with wit.ai.
+
+In the meantime, you can check this [link for creating a messenger bot tutorial](https://github.com/jw84/messenger-bot-tutorial)
 
 
 # Links and useful references to learn more about key concepts:
