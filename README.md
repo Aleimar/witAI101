@@ -9,9 +9,9 @@ Wit.ai 101: Basics of Natural Language Processing through [Wit.ai](https://wit.a
 ## Utterance
 Basically, anything the user says: 
 
-* *"What day is it?"* 
-* *"Thank you!"* 
-* *"I'd like to order sandwich."* 
+* *What day is it?* 
+* *Thank you!* 
+* *I'd like to order sandwich.* 
 
 Whether a question, an expression or a command, **the whole statement is called an *utterance***. 
 
@@ -24,6 +24,6 @@ Check_Weather | How's the weather today? <br> What's the weather forecast tomorr
  Greetings | Good morning! <br> Hello!
  Travel_Booking | Book me a flight to the Philippines next week Friday. <br> I'd like to travel in Singapore this December 25. <br> I need a plane ticket for my trip next week to Bangkok, Thailand.
  
-The table
+The table above shows user's intentions based on sample utterances like asking *"How's the weather today?"* means that the user want's to check the weather and we label this intent into *Check_Weather*
 
 ## Entities
