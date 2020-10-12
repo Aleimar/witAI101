@@ -180,7 +180,7 @@ We will now add sample to train our app.
  
 The response essentially contains:
 * **text** - the user utterance
-* **intents** - which contains **name** or the intent detected, and **confidence** which the probability that the intent classification is confidently correct.
+* **intents** - which contains **name** or the intent detected, and **confidence** as the probability that the intent classification is confidently correct.
 * **entities** - which contains the entities extracted in the utterance (in this case, no entity is detected)
 
 By this example, we can conclude that our app is 70% confident that *'good night'* is a *Greeting* intent, then we craft possible response for greetings like this to the users.
