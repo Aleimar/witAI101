@@ -97,7 +97,7 @@ We will now add sample to train our app.
 * Highlight entities: *this Friday* and *Philippines* then search for built in entity of wit.ai
 > See this [link  for list of wit.ai built in entities](https://wit.ai/docs/built-in-entities/20200513/) 
 
-``` Example: After highlighting Philippines search the world 'location' in entity, then click once found to assign location entity for Philippines```
+``` Example: After highlighting Philippines search the word 'location' in entity, then click once found to assign location entity for Philippines```
 
 
 <p align="center">
@@ -154,8 +154,7 @@ We will now add sample to train our app.
 <img src="https://aleimar.github.io/witAI101/images/part3a.gif" > 
  </p>
 
-* The response is in 
-format. To make it more understandable, highlight the response, copy then go to [JSON Pretty Print Online](https://jsonformatter.org/json-pretty-print) paste it on the left editor, then click **Make Pretty** and see the result in the right side:
+* The response is in JSON format. To make it more understandable, highlight the response, copy then go to [JSON Pretty Print Online](https://jsonformatter.org/json-pretty-print) paste it on the left editor, then click **Make Pretty** and see the result in the right side:
 
  
  <p align="center">
@@ -289,11 +288,13 @@ From this example, we see that its only 54% confident that the utterance *'Fly m
 Now that we have an intelligent NLP system, thanks to Wit.ai! We can now connect our chatbots or web apps to process queries by different users and craft appropriate responses to them based on what intent and entities are being extracted/classified by our system.
 
 ### When does training for intents and entities stop?
-You can never train it enough. Languages and its usage changes from time to time, it would be better to check accuracy of you NLP system and train with new utterances you captured from users to improve it! 
+You can never train it enough. Languages and its usage changes from time to time, it would be better to check accuracy of your NLP system and train with new utterances you captured from users to improve it! 
 
 This is why natural language processing is exciting! You get to be updated with current cool languages of people and make your bot keep up with the current trend 😎
 
-> In the future, I'll create tutorial in setting up basic chatbot for beginners, and possibly connect it with wit.ai.
+### Connect your app to your chatbot
+
+> In the future, I'll create tutorial in setting up basic chatbot for beginners, and how to connect wit.ai.
 
 In the meantime, you can check this [link for creating a messenger bot tutorial](https://github.com/jw84/messenger-bot-tutorial)
 
