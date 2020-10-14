@@ -74,7 +74,7 @@ To follow this tutorial, you just need:
 * Open [Wit.ai](https://wit.ai). 
 * Click **Continue with Facebook**
 * Click **New App**
-* Name your App (demoApp) then **Create**
+* Name your App (demoApp) then click **Create**
 
 <p align="center">
 <img src="https://aleimar.github.io/witAI101/images/part1.gif"> 
@@ -83,13 +83,13 @@ To follow this tutorial, you just need:
  Now, you are in the understanding tab of Wit.ai. 
 
 ### Step 2: Adding sample Utterances
-We will now add sample to train our app.
+We will now add sample utterances to train our app.
 
 <p align="center">
 <img src="https://aleimar.github.io/witAI101/images/understanding.png"> 
  </p>
 
-* In the utterance bar, type the sample utterances for our app.  
+* In the utterance bar, type the sample utterance for our app.  
 ``` Book me a flight to the Philippines this Friday ```
 
 
