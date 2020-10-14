@@ -22,10 +22,10 @@ Basically, anything the user says:
 * *Thank you!* 
 * *I'd like to order sandwich.* 
 
-Whether a question, an expression or a command, **the whole statement is called an *utterance***. 
+Whether a question, an expression, or a command, **the whole statement is called an *utterance***. 
 
 ## Intents<a name="Intents"></a>
-An intent represents a task or action the user wants to perform. It is a purpose or goal expressed in a user's utterance. 
+An intent represents a task or action the user wants to perform. It is the purpose or goal expressed in user's utterance. 
 
 Intent | Utterance
 ------------ | -------------
@@ -94,10 +94,10 @@ We will now add sample to train our app.
 
 
 ### Step 3: Adding Entities
-* Highlight entities: *this Friday* and *Philippines* then search for built in entity of wit.ai
-> See this [link  for list of wit.ai built in entities](https://wit.ai/docs/built-in-entities/20200513/) 
+* Highlight entities: *this Friday* and *Philippines* then search for built-in entity of wit.ai
+> See this [link  for list of wit.ai built-in entities](https://wit.ai/docs/built-in-entities/20200513/) 
 
-``` Example: After highlighting Philippines search the word 'location' in entity, then click once found to assign location entity for Philippines```
+``` Example: After highlighting Philippines search the word 'location' in entity, then click it once found to assign location entity for Philippines```
 
 
 <p align="center">
@@ -293,7 +293,6 @@ You can never train it enough. Languages and its usage changes from time to time
 This is why natural language processing is exciting! You get to be updated with current cool languages of people and make your bot keep up with the current trend 😎
 
 ### Connect your app to your chatbot
-
 > In the future, I'll create tutorial in setting up basic chatbot for beginners, and how to connect wit.ai.
 
 In the meantime, you can check this [link for creating a messenger bot tutorial](https://github.com/jw84/messenger-bot-tutorial)
