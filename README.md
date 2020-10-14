@@ -154,7 +154,8 @@ We will now add sample to train our app.
 <img src="https://aleimar.github.io/witAI101/images/part3a.gif" > 
  </p>
 
-* The response is in JSON format. To make it more understandable, highlight the response, copy then go to [JSON Pretty Print Online](https://jsonformatter.org/json-pretty-print) paste on the left editor the click **Make Pretty** then see the result in the right side:
+* The response is in 
+format. To make it more understandable, highlight the response, copy then go to [JSON Pretty Print Online](https://jsonformatter.org/json-pretty-print) paste it on the left editor, then click **Make Pretty** and see the result in the right side:
 
  
  <p align="center">
