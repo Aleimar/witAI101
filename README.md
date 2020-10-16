@@ -101,7 +101,7 @@ We will now add sample utterances to train our app.
 
 
 <p align="center">
-<img src="https://aleimar.github.io/witAI101/images/addentity.png" width="600" height="400"> 
+<img src="https://aleimar.github.io/witAI101/images/addentity.png"> 
  </p>
  
  * After you assigned entities, you should see something like this:
