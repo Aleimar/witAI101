@@ -147,7 +147,7 @@ We will now add sample utterances to train our app.
 <img src="https://aleimar.github.io/witAI101/images/response.png"> 
  </p>
  
- > ❗ NOTE: <br> For windows user, copy-paste directly the curl command to your command prompt might result to multiple command so what you can do first is paste it in notepad, delete new lines (enter) and backslahes '\\', so the whole command should be just one line. Also delete the space between colon (:) and **Bearer**, then replace single quotes (') with double quotes(") and your command should look like this: <br> curl -H "Authorization:Bearer 2L5SD2BWCAJZ6W4HHTJLAZTKVL5NMBAB" "https://api.wit.ai/message?v=20201013&q=good%20night"
+ > ❗ NOTE: <br> For windows user, copy-paste directly the curl command to your command prompt might result to multiple command so what you can do first is paste it in notepad, delete new lines (enter) and backslahes '\\', so the whole command should be just one line. Also delete the space between colon (:) and **Bearer**, then replace single quotes (') with double quotes(") and your command should look like this: <br> curl -H "Authorization:Bearer ERPO3QGEHBB2QKEMRVPHJWYP22PR36GV" "https://api.wit.ai/message?v=20201013&q=good%20night"
  
 
  <p align="center">
