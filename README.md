@@ -287,7 +287,7 @@ From this example, we see that its only 54% confident that the utterance *'Fly m
 ### Check our sample app (demoApp)
 You can try our sample app in this tutorial by clicking this [link](https://wit.ai/apps/3186615821466997) and entering your test utterance in the utterance field under understanding tab.
 
-> For advance programmers, you can use this curl request ***curl -H 'Authorization: Bearer ERPO3QGEHBB2QKEMRVPHJWYP22PR36GV' 'https://api.wit.ai/message?v=20201025&q='*** and append your sample utterance. Remember to replace spaces with **%20**  
+> 💻 For advance programmers, you can use this curl request ***curl -H 'Authorization: Bearer ERPO3QGEHBB2QKEMRVPHJWYP22PR36GV' 'https://api.wit.ai/message?v=20201025&q='*** and append your sample utterance. Remember to replace spaces with "**%20**" characters. 
 
 
 # What’s next?
