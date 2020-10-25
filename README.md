@@ -284,6 +284,12 @@ From this example, we see that its only 54% confident that the utterance *'Fly m
 
 > ❗ **NOTE** <br> In our latest example, we see that entities also contains other data like role, coordinates, timezone etc. <br> It all depends on how you will use all other data from the response body, in our demo, we are only interested on what entities are being captured, and the intent that is classified by the test utterance.
 
+### Check our sample app (demoApp)
+You can try our sample app in this tutorial by clicking this [link](https://wit.ai/apps/3186615821466997) and entering your test utterance in the utterance field under understanding tab.
+
+> For advance programmers, you can use this curl request ***curl -H 'Authorization: Bearer ERPO3QGEHBB2QKEMRVPHJWYP22PR36GV' 'https://api.wit.ai/message?v=20201025&q='*** and append your sample utterance. Remember to replace spaces with **%20**  
+
+
 # What’s next?
 Now that we have an intelligent NLP system, thanks to Wit.ai! We can now connect our chatbots or web apps to process queries by different users and craft appropriate responses to them based on what intent and entities are being extracted/classified by our system.
 
